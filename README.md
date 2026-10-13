@@ -1,7 +1,10 @@
 # - getsocial -
+### Ever grow tired of having to open a bunch of websites to paste in URLs to your socials when filling out a job application? Here is my simple but effective solution...
 - C program for Linux systems that streamlines copying frequently used URLs to your clipboard. Supports both Wayland and x11.
 
-- A binary (`getsocial`) is included in this repository. Optionally, you can build it yourself but dependencies will need to be installed regardless
+- A binary (`getsocial`) is included in this repository, but you must build it yourself if you want to change the links. dependencies will need to be installed as defined below.
+
+## Example usage
 
 ## Build Instructions
 
@@ -10,7 +13,7 @@ Safe build command:
 
 ## Usage Instructions/Notes:
 
-This must be either wayland or x11: 
+This must be either wayland or x11, otherwise the program will likely throw an error: 
     echo "$XDG_SESSION_TYPE"
 
 OS: Only tested on Ubuntu 26.04, but will probably work on many other similar Linux distributions

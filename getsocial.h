@@ -9,6 +9,7 @@ typedef struct {
 
 
 // Add your URLs to this array (or technically anything that you want copied to your clipboard)
+// these are example links, you are going to want to replace these with your own
 static const SocialProfile profiles[] = {
     {"-g", "GitHub",   "https://github.com/MatthewBFewer"},
     {"-l", "LinkedIn", "https://www.linkedin.com/in/matthew-fewer-246094343/"}

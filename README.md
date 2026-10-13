@@ -6,11 +6,11 @@
 
 ## Example usage
 ```
-$ getsocial
+~$ getsocial
 Usage: getsocial [-g | -l]
   -g  Copy GitHub profile link
   -l  Copy LinkedIn profile link
-$ getsocial -l
+~$ getsocial -l
 LinkedIn link copied to clipboard!
 ```
 

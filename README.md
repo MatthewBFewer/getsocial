@@ -21,10 +21,10 @@ Safe build command:\
 
 ## Usage Instructions/Notes:
 
-This must be either wayland or x11, otherwise the program will likely throw an error:\
+This must return either wayland or x11, otherwise the program will throw an error:\
     echo "$XDG_SESSION_TYPE"
 
-OS: Only tested on Ubuntu 26.04, but will probably work on many other similar Linux distributions
+OS: Only tested on Ubuntu 26.04, but will likely work on many other similar Linux distributions
 
 Dependencies:\
     sudo apt install build-essential wl-clipboard xclip

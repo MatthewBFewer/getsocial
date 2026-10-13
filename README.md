@@ -1,5 +1,7 @@
 # - getsocial -
-C program for Linux systems that streamlines copying frequently used URLs to your clipboard. Supports both Wayland and x11.
+- C program for Linux systems that streamlines copying frequently used URLs to your clipboard. Supports both Wayland and x11.
+
+- A binary (`getsocial`) is included in this repository. Optionally, you can build it yourself but dependencies will need to be installed regardless
 
 ## Build Instructions
 
